@@ -31,17 +31,11 @@ accelerate>=0.11.0
 protobuf<4,>=3.20.3
 tensorboard
 torch>=1.4
-jax!=0.3.2,>=0.2.8
-jaxlib>=0.1.65
-flax>=0.4.1
 
 [docs]
 hf-doc-builder>=0.3.0
 
 [flax]
-jax!=0.3.2,>=0.2.8
-jaxlib>=0.1.65
-flax>=0.4.1
 
 [quality]
 urllib3<=2.0.0
